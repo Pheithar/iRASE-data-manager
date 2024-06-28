@@ -1,6 +1,6 @@
 # iRASE-data-manager
 
-[![Documentation Status](https://readthedocs.org/projects/iRASE-data-manager/badge/?version=latest)](https://iRASE-data-manager.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/irase-data-manager/badge/?version=latest)](https://irase-data-manager.readthedocs.io/en/latest/?badge=latest)
 
 iRASE-data-manager is a Python library for managing data uploads and downloads on the DTU Data platform. This library provides a simple interface for interacting with the Figshare-based DTU Data system, specifically for the i-RASE project.
 
