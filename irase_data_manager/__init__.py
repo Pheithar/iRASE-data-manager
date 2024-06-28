@@ -4,3 +4,5 @@ from .simulator import (
 )
 
 __all__ = ["simulator_download_data", "simulator_upload_data"]
+
+__version__ = "0.0.1"
