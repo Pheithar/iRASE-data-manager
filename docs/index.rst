@@ -6,10 +6,21 @@
 Welcome to i-Rase Data Management's documentation!
 ==================================================
 
+iRASE-data-manager is a Python library for managing data uploads and downloads on the DTU Data platform. This library provides a simple interface for interacting with the Figshare-based DTU Data system, specifically for the i-RASE project.
+
+Features
+--------
+- Simple interface for uploading and downloading data.
+- Integration with DTU Data platform.
+- Designed specifically for the i-RASE project.
+
+
+
 .. toctree::
    :maxdepth: 2
 
    modules
+   installation
 
 
 
