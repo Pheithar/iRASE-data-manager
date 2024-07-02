@@ -8,7 +8,7 @@ build:
     pre_build:
       - pip install -r requirements_dev.txt
       - pip install .
-      - cd docs && sphinx-apidoc -o . ../irase_data_manager --force && make html
+      - cd docs && make html
 
 
 python:

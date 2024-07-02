@@ -22,8 +22,6 @@ Features
    installation
    modules
 
-
-
 Indices and tables
 ==================
 
