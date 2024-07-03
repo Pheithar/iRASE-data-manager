@@ -161,7 +161,7 @@ def upload_data(
 
     headers = {"Authorization": f"token {auth_token}"}
 
-    create_article_url = "https://api.figshare.com/v2/account/projects/211192/articles"
+    create_article_url = "https://api.figshare.com/v2/account/projects/211264/articles"
     response = requests.post(create_article_url, headers=headers, json=article_metadata)
 
     if response.status_code != 201:

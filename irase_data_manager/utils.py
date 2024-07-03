@@ -101,8 +101,6 @@ def validate_experiment_metadata(metadata: dict[str, any]) -> None:
     """
     required_metadata = ["detector_id", "source_id", "experiment_type", "sample_time"]
 
-    print(metadata.get("type"))
-
     missing_metadata = [key for key in required_metadata if key not in metadata]
 
     if missing_metadata:
