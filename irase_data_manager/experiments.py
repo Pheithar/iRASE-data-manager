@@ -135,9 +135,6 @@ def upload_data(
     article_metadata = irase_data_manager.extract_article_metadata(metadata)
     irase_data_manager.validate_experiment_metadata(metadata)
 
-    print(metadata)
-    print(article_metadata)
-
     logger.debug("Transforming data into a single HDF5 file")
 
     file_name = "test_data.hdf5"  # NOTE: Update when naming convention is decided
